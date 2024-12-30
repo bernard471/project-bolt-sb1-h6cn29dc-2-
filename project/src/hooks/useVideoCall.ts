@@ -19,6 +19,8 @@ export function useVideoCall(sessionId: string) {
         });
         setLocalStream(stream);
 
+
+        
         // Initialize WebRTC peer connection
         peerConnection = new RTCPeerConnection({
           iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
