@@ -1,0 +1,15 @@
+.xterm {
+  padding: 1rem;
+}
+
+.xterm-viewport {
+  overflow-y: auto;
+}
+
+.xterm-cursor-layer {
+  z-index: 1;
+}
+
+.xterm-screen {
+  position: relative;
+}
